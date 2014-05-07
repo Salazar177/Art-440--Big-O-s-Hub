@@ -37,8 +37,6 @@ h1 {
 	text-transform: uppercase;
 	margin-bottom: 50px;
 	letter-spacing: .07em;
-	-webkit-text-stroke-width: 2px;
-	-webkit-text-stroke-color: black;
 }
 
 p {
