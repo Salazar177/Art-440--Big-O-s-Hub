@@ -1,0 +1,69 @@
+	/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* Adjust box model to use the padding and border when calculating width */
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+	position: relative;
+	width: 100%;
+	margin: auto;
+}
+
+content {
+	position: relative;
+	margin: auto;
+	width: 900px;
+}
+
+.home_content {
+	margin-left: 40px;
+}
+
+h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: sans-serif;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	color: red;
+}
+
+h2 {
+	padding-bottom: 10px;
+}
+
+h2 a {
+	color: black;
+}
+
+h2 a:hover {
+	color: red;
+}
+
+.FullImage {
+	width: 100%;
+}
+
+ul {
+	padding: 20px 0px 20px 0px;
+}
+
+li {
+	display: inline;
+	padding: 0px 20px 0px 20px;
+	text-decoration: none;
+}
+
+li a {
+	text-decoration: none;
+	color: black;
+}
+
+li a:hover {
+	color: red;
+}
+
+.CompHub {
+	font-weight: bold;
+}
