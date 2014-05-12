@@ -25,7 +25,7 @@ html, body {
 	font-size: .9em; /* 16 px */
 	line-height: 1.5em;
 	background-color: #fdf6e7;
-	margin: 0 20px;
+/* 	margin: 0 1.250em; */
 	color: #000;
 }
 
@@ -33,7 +33,7 @@ html, body {
 	width: 100%;
 	background-color: inherit;
 	position: fixed;
-	padding: 40px 40px;
+	padding: 30px 40px;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -42,15 +42,20 @@ html, body {
 h1 {
 	font-size: 3.5em;
 	text-transform: uppercase;
-	line-height: 2.55em;
+	line-height: 2.5em;
 	letter-spacing: .075em;
+
 }
 
 h2 {
 	font-size: 1.5em;
+	margin-bottom: 1em;
 }
 
 p {
+	font-size: 1.188em;
+	line-height: 1.5em;
+	margin-bottom: 1.250em;
 	
 }
 
@@ -67,35 +72,44 @@ p {
 	transition: opacity .25s ease-in-out;
     -moz-transition: opacity .25s ease-in-out;
     -webkit-transition: opacity .25s ease-in-out;
-   
+   color: #d61e35;
 }
 
 
 a {
 	font-size: 1em; /* 16px */
-	color: #d61e35;
-	border-bottom: 1px #d61e35 solid;
+	color: #000;
 	text-decoration: none;
+	text-transform: lowercase;
 	
 }
 
 a:hover {
-	color: #000;
-	border-bottom: 1px #000 solid;
-
-	
+	color: #d61e35;
 }
 
-nav	{
-	float: right;
+.active {
+	font-size: 1em; /* 16px */
+	color: #d61e35;
+	border-bottom: 1px #d61e35 solid;
+	text-decoration: none;
 }
 
 nav a {
-	
-	float: left;
+	padding-top: 10px;
+	float: right;
 	text-align: right;
-	margin-left: 20px;
-	
+	margin-left: 1.250em;
+	display: block;
+}
+
+.sectionHeader{
+	background-color: #bc926c;
+	text-align: center;
+	width: 100%;
+	padding: 2.5em;
+	color: #fdf6e7;
+	margin-top: 106px;
 }
 
 
@@ -131,12 +145,16 @@ nav a {
 *----------------------------------------------------------------------*/
 
 .main {
-	margin-top: 100px;
 	position: static;
+	margin: 0 10em;
 }
 
 footer{
 	text-align: center;
 	font-family: 'Cutive Mono';
 	margin-top: 50px;
+	padding: 50px;
+	color: #fdf6e7;
+	background-color: #000;
+	bottom: 0;
 }
