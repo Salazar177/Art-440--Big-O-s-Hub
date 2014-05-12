@@ -21,24 +21,83 @@ font-size-adjust: auto;
 
 html, body {
 	min-height: 100%;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Cutive, Georgia, serif;
+	font-size: .9em; /* 16 px */
+	line-height: 1.5em;
+	background-color: #fdf6e7;
+	margin: 0 20px;
+	color: #000;
+}
+
+.headernav {
+	width: 100%;
+	background-color: inherit;
+	position: fixed;
+	padding: 40px 40px;
+	top: 0;
+	left: 0;
+	right: 0;
 }
 
 h1 {
-	
+	font-size: 3.5em;
+	text-transform: uppercase;
+	line-height: 2.55em;
+	letter-spacing: .075em;
+}
+
+h2 {
+	font-size: 1.5em;
 }
 
 p {
 	
 }
 
+.logo {
+	float: left;
+	width: 80px;
+	transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.logo:hover {
+	opacity: .5;
+	transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+   
+}
+
+
 a {
+	font-size: 1em; /* 16px */
+	color: #d61e35;
+	border-bottom: 1px #d61e35 solid;
+	text-decoration: none;
 	
 }
 
 a:hover {
+	color: #000;
+	border-bottom: 1px #000 solid;
+
 	
 }
+
+nav	{
+	float: right;
+}
+
+nav a {
+	
+	float: left;
+	text-align: right;
+	margin-left: 20px;
+	
+}
+
 
 
 
@@ -71,5 +130,13 @@ a:hover {
 
 *----------------------------------------------------------------------*/
 
+.main {
+	margin-top: 100px;
+	position: static;
+}
 
-
+footer{
+	text-align: center;
+	font-family: 'Cutive Mono';
+	margin-top: 50px;
+}
