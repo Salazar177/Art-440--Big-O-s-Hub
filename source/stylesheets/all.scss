@@ -22,18 +22,61 @@ font-size-adjust: auto;
 *----------------------------------------------------------------------*/
 
 
-html, body {
-	min-height: 100%;
-	font-family: Helvetica, Arial, sans-serif;
+/* color */
+
+$cream: #fdf6eb;
+
+$brown: #bc926c;
+
+$black: #221f1f;
+
+$red: #d61e35;
+
+$white: #ffffff;
+
+/* fonts */
+$mono: 'Cutive Mono';
+
+$cutive: 'Cutive';
+
+$sans: 'Modern Sans Serif 7';
+
+
+/* styles */
+body {
+	font-size: 100%; /* 16 pixel default */
 }
+
 
 h1 {
-	
+	font-family: $sans;
+	font-size: 
 }
 
-p {
-	
+h2 {
+	font-family: $sans;
+	font-size: 2.75em;
 }
+
+
+h3 {
+	font-family: $cutive;
+	font-size: 1.5em;
+}
+
+h4 {
+	font-family: $cutive;
+	font-size: .813em;
+}
+
+
+h6 {
+	font-family: $cutive;
+	font-size: .75em;
+}
+
+
+
 
 a {
 	
