@@ -52,6 +52,12 @@ h2 {
 	margin-bottom: 1em;
 }
 
+h6 {
+	font-size: 5em;
+	line-height: 1.5em;
+	text-transform: uppercase;
+}
+
 p {
 	font-size: 1.188em;
 	line-height: 1.5em;
@@ -68,11 +74,13 @@ p {
 }
 
 .logo:hover {
-	opacity: .5;
+	/*
+opacity: .5;
 	transition: opacity .25s ease-in-out;
     -moz-transition: opacity .25s ease-in-out;
     -webkit-transition: opacity .25s ease-in-out;
-   color: #d61e35;
+*/
+   fill: #d61e35;
 }
 
 
