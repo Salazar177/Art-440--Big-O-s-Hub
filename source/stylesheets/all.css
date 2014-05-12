@@ -72,4 +72,19 @@ a:hover {
 *----------------------------------------------------------------------*/
 
 
+.col1{
+	background-color: yellow;
+	height: 40px;
+}
 
+.col2{
+	background-color: blue;
+	height: 40px;
+
+}
+
+.col3{
+	background-color: purple;
+	height: 40px;
+
+}
