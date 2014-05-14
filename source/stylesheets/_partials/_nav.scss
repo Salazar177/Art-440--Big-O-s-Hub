@@ -20,7 +20,6 @@ html{
 	padding: 0;
 	font-family: $cutive;
 	font-size: 1em;
-
 }
 
 
@@ -33,14 +32,17 @@ html{
 ul {
 	float: right;
 	/* padding-top: 40px; */
+	padding: 0;
 
 	li {
 		display: inline;
-		padding: 0px 0px 0px 30px;
-		font-family: $mono, sans;
+		padding: 0px 0px 0px 40px;
+		font-family: $cutive;
 		
 		a {
-			font-size: 1.5em;
+			font-size: 1.25em;
+			color: black;
+
 		}
 	}
 }
@@ -53,4 +55,16 @@ ul {
 		text-align: center;
 		color: white;
 	}
+}
+
+@media (max-width:767px) {
+	
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+}
+
+@media (min-width:992px) and (max-width:1199px){
+	
 }
