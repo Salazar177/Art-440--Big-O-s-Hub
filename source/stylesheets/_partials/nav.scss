@@ -2,15 +2,33 @@
 	background-color: $cream;
 }
 
+.nav {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 .navLogo{
 	background-color: red;
 }
 
 .navLinks{
 	background-color: blue;
+	padding-top: 50px;
 }
+
 
 .logo {
 	width: 81px;
 	height: auto;
+}
+
+
+ul {
+	float: right;
+	/* padding-top: 40px; */
+
+	li {
+		display: inline;
+		padding: 0px 40px 0px 0px;
+	}
 }
