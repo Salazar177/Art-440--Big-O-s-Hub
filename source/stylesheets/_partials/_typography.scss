@@ -2,6 +2,9 @@ body {
 	font-size: 100%; /* 16 pixel default */
 }
 
+.mono {
+	font-family: $mono;
+}
 
 h1 {
 	font-size: 7em;
