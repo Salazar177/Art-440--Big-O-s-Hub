@@ -34,9 +34,13 @@ ul {
 	li {
 		display: inline;
 		padding: 0px 40px 0px 0px;
+		font-family: $mono, sans;
+		
+		a {
+			font-size: 1.5em;
+		}
 	}
 }
-
 .footer{
 	p{
 		font-family: $cutive;
