@@ -66,13 +66,27 @@
 }
 
 .backgroundImageStory{
-	margin-bottom: 7em;
+	margin-bottom: 3em;
 	h5{
 		text-transform: uppercase;
 		color: $cream;
 		line-height: 1.3em;
 		text-align: center;
 	}
+}
+
+.backgroundImageStory2{
+	margin-bottom: 3em;
+	h5{
+		text-transform: uppercase;
+		color: $cream;
+		line-height: 1.3em;
+		text-align: center;
+	}
+}
+
+.story{
+	padding-bottom: 3em;
 }
 
 
