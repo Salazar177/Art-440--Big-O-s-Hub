@@ -63,13 +63,17 @@
 		line-height: 1.3em;
 	}
 	h5{
-		font-size: 5em;
+		font-size: 4.8em;
 		line-height: 1.3em;
 	}
 }
 
 @media (min-width:1200px) {
-
+	/* Typography */
+	h5{
+		font-size: 5em;
+		line-height: 1.3em;
+	}
 }
 
 
