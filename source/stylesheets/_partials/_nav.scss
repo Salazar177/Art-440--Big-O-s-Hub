@@ -20,6 +20,29 @@ html{
 	padding: 0;
 	font-family: $cutive;
 	font-size: 1em;
+	
+	/* NAV LINKS UL */
+	ul {
+		float: right;
+		/* padding-top: 40px; */
+		padding: 0;
+	
+		li {
+			display: inline;
+			padding: 0px 0px 0px 40px;
+			font-family: $cutive;
+			
+			a {
+				font-size: 1.25em;
+				color: black;
+			}
+			a:hover {
+				color: $red;
+				text-decoration: none;
+				border-bottom: .1em $red solid;
+			}
+		}
+	}
 }
 
 .logo {
@@ -27,28 +50,13 @@ html{
 	height: auto;
 }
 
-
-ul {
-	float: right;
-	/* padding-top: 40px; */
-	padding: 0;
-
-	li {
-		display: inline;
-		padding: 0px 0px 0px 40px;
-		font-family: $cutive;
-		
-		a {
-			font-size: 1.25em;
-			color: black;
-		}
-		a:hover {
-			color: $red;
-			text-decoration: none;
-			border-bottom: .1em $red solid;
-		}
-	}
+.navUIButton{
+	display: none;
 }
+
+
+
+
 .footer{
 	padding: 5em 0;
 	background-color: black;
