@@ -30,12 +30,13 @@
 
 .backgroundColorCatering {
 	background-color: $brown;
-	height: 120px;
+	height: 12em;
 	.container {
 		text-align: center;
 		color: $cream;
 		h3{
 			line-height: 1.8em;
+			padding-top: 1.7em;
 		}
 	}
 }
@@ -80,6 +81,9 @@
 .backgroundBlack{
 	height: 12em;
 	margin-bottom: 7em;
+	h3{
+		padding-top: 2.7em;
+	}
 }
 
 .contactContent{
