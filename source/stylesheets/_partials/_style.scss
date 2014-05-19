@@ -50,6 +50,31 @@
 	}
 }
 
+/* ||||||Story||||||| */
+
+.backgroundColorStory {
+	background-color: $brown;
+	height: 120px;
+	.container {
+		text-align: center;
+		color: $cream;
+		h3{
+			line-height: 1.8em;
+		}
+	}
+}
+
+.backgroundImageStory{
+	margin-bottom: 7em;
+	h5{
+		text-transform: uppercase;
+		color: $cream;
+		line-height: 1.3em;
+		text-align: center;
+	}
+}
+
+
 /* ||||||Contact||||||| */
 
 .backgroundBlack{
