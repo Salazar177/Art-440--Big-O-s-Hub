@@ -1,3 +1,18 @@
+/* ||||||Markets||||||| */
+
+.backgroundColorMarkets {
+	background-color: $red;
+	height: 120px;
+	.container {
+		text-align: center;
+		color: $cream;
+		h3{
+			line-height: 1.8em;
+		}
+	}
+}
+
+
 /* ||||||Catering||||||| */
 
 .backgroundColorCatering {
