@@ -22,10 +22,6 @@ html{
 	font-size: 1em;
 }
 
-.navLinks:hover{
-	color: $red;
-}
-
 .logo {
 	width: 81px;
 	height: auto;
@@ -45,7 +41,11 @@ ul {
 		a {
 			font-size: 1.25em;
 			color: black;
-
+		}
+		a:hover {
+			color: $red;
+			text-decoration: none;
+			border-bottom: .1em $red solid;
 		}
 	}
 }
