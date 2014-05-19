@@ -1,4 +1,10 @@
 @media (max-width:767px) {
+
+	/* NAV Media */
+
+	
+	
+	/* Typography */
 	h1{
 		font-size: 4em;
 		line-height: 1.3em;
@@ -10,12 +16,16 @@
 }
 
 @media (min-width:768px) and (max-width:991px) {
+	/* NAV Media */
+	
+	.logo {
+		margin: 0 auto;
+	}
+	
+	/* Typography */
 	h1{
 		font-size: 4em;
 		line-height: 1.3em;
-	}
-	.logo {
-		margin: 0 auto;
 	}
 	h5{
 		font-size: 4em;
@@ -24,6 +34,8 @@
 }
 
 @media (min-width:992px) and (max-width:1199px){
+	
+	/* Typography */
 	h1{
 		font-size: 5em;
 		line-height: 1.3em;
