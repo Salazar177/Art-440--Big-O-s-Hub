@@ -24,8 +24,12 @@
 .border{
 	border: solid $brown 2px;
 	padding: 3%;
+	background: $cream;
 }
 
+.border:hover{
+	background: $brown;
+}
 
 /* ||||||Catering||||||| */
 
