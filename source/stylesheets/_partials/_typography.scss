@@ -57,25 +57,3 @@ p {
 .center{
 	text-align: center;
 }
-
-
-@media (max-width:767px) {
-	h1{
-		font-size: 4em;
-		line-height: 1.3em;
-	}
-}
-
-@media (min-width:768px) and (max-width:991px) {
-	h1{
-		font-size: 4em;
-		line-height: 1.3em;
-	}
-}
-
-@media (min-width:992px) and (max-width:1199px){
-	h1{
-		font-size: 5em;
-		line-height: 1.3em;
-	}
-}
