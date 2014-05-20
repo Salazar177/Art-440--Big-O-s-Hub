@@ -1,4 +1,3 @@
-/*
 $(window).load(function(){
 	if ($(window).width() <= 767){
 		// do something here
@@ -19,4 +18,3 @@ $(window).load(function(){
 });
 
 });
-*/
