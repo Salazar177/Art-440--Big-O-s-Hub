@@ -20,7 +20,8 @@ $(window).load(function(){
 	});
 	
 	// NAV ACTIVE LINKS
-	$('.navLinks a').each(function() {
+/* 	console.log("Whatever"); */
+	$('.navLink').each(function() {
 	    if ($(this).attr('href')  === '..'+  window.location.pathname) {
 	      $(this).addClass('current');
 		}
