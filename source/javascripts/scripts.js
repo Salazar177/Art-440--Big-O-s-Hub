@@ -1,61 +1,24 @@
-/*
 $(window).load(function(){
-	if(window.location.pathname == '../menu.html'){
+	if ($(window).width() <= 767){
 		// do something here
-		$('.menuLinks').addClass('red');
-		console.log("Make link active.");
-	};
-});
-*/
-
-/*
-$('.navLinks ul li a').each(function(){
-
-var path = window.location.href;
-var loc = path.substring(path.lastIndexOf('/')+1);
-var url = $(this).attr('href');
-
-if(url == loc){
-$(this).parent().addClass('red');
-};
-});
-*/
-
-/* var pathname = window.location.pathname; */
-
-/*
-$(window).load(function(){
-	var pathname = window.location.pathname;
-	if (window.location.pathname == '../index.html'){
-		console.log("Whatever");
+		$('.navUIButtonContainer').removeClass('hidden');
+		$('.navLinks').addClass('hidden');
 	}
-});
-*/
-
-/*
-console.log("Test");
-$(window).load(function(){
-	$('.navLink').addClass('current');
-});
-*/
-/*
-
-$('.navLink').each(function() {
-	console.log("jQuery loading");
-	if ($(this).attr('href')  ==  window.location.pathname) {
-	  console.log("Whatever");
-	  $(this).addClass('current');
-	}
-});
-*/
-
-
-jQuery(function() {
-  jQuery('.navLinks a').each(function() {
-  	console.log('..'+ window.location.pathname);
-
-    if (jQuery(this).attr('href')  === '..'+  window.location.pathname) {
-      jQuery(this).addClass('current');
-    }
+	$(window).resize(function(){
+		if ($(window).width() <= 767){	
+			// do something here
+			$('.navUIButtonContainer').removeClass('hidden');
+			$('.navLinks').addClass('hidden');
+		}
+		if ($(window).width() >= 767){	
+			// do something here
+			$('.navUIButtonContainer').addClass('hidden');
+			$('.navLinks').removeClass('hidden');
+		}
+	});
+	$('.navLinks a').each(function() {
+	    if ($(this).attr('href')  === '..'+  window.location.pathname) {
+	      $(this).addClass('current');
+		}
   });
 });
