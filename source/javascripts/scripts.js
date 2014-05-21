@@ -33,6 +33,7 @@ $(window).load(function(){
 */
 
 $('.navLink').each(function() {
+	console.log("Test");
 	if ($(this).attr('href')  ==  window.location.pathname) {
 /* 	  $(this).addClass('red'); */
 	  console.log("Whatever");

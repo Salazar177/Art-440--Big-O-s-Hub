@@ -1,2 +1,3 @@
-//= require_tree .
-
+//= require bootstrap.min
+//= require nav
+//= scripts
