@@ -28,10 +28,7 @@
 
 .last{
 	padding-bottom: 3em;
-}
-	
-	
-	
+}	
 
 .border{
 	border: solid $brown 2px;
@@ -42,6 +39,20 @@
 .border:hover{
 	background: $brown;
 }
+
+
+/* ||||||Menu||||||| */
+
+.menuImageText {
+	h2{
+		text-transform: uppercase;
+		color: $cream;
+		line-height: 1.3em;
+		text-align: center;
+	}
+}
+
+
 
 /* ||||||Catering||||||| */
 
@@ -59,7 +70,7 @@
 
 .backgroundImageCatering{
 	margin-bottom: 7em;
-	h5{
+	h2{
 		text-transform: uppercase;
 		color: $cream;
 		line-height: 1.3em;
@@ -89,7 +100,7 @@
 
 .backgroundImageStory{
 	margin-bottom: 3em;
-	h5{
+	h2{
 		padding-top: 1em;
 		text-transform: uppercase;
 		color: $cream;
@@ -100,7 +111,7 @@
 
 .backgroundImageStory2{
 	margin-bottom: 3em;
-	h5{
+	h2{
 		padding-top: 1em;
 		text-transform: uppercase;
 		color: $cream;
@@ -130,10 +141,52 @@
 }
 
 form{
+	position: relative;
 	ul{
 		text-decoration: none;
+		margin: 0px;
+		padding: 0px;
+		.HLF{
+			margin-bottom: 3em;
+		}
 		li{
 			list-style-type: none;
 		}
+		.buttons{
+			margin-top: 3em;
+		}
+	}
+	input{
+		border: 2px solid $brown;
+		width: 100%;
+		background-color: rgba(255,255,255,0.5);
+		height: 3em;
+		font-family: $cutive;
+		font-size: 1.25em;
+	}
+	textarea{
+		border: 2px solid $brown;
+		width: 100%;
+		background-color: rgba(255,255,255,0.5);
+		font-family: $cutive;
+		font-size: 1.25em;
+		text-align: left;
+	}
+	.submit{
+		background-color: $brown;
+		
+	}
+}
+
+/* ||||||Style Guide||||||| */
+
+.backgroundImageStyle{
+	margin-bottom: 3em;
+	h2{
+		padding-top: 1em;
+		text-transform: uppercase;
+		color: $cream;
+		line-height: 1.3em;
+		text-align: center;
 	}
 }

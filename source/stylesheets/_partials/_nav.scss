@@ -36,9 +36,15 @@ html{
 				font-size: 1.25em;
 				color: black;
 			}
+			
 			a:hover {
 				color: $red;
 				text-decoration: none;
+				border-bottom: .1em $red solid;
+			}
+			
+			a:active {
+				color: $red;
 				border-bottom: .1em $red solid;
 			}
 		}
