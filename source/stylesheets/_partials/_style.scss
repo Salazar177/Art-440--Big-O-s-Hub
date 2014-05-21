@@ -12,23 +12,13 @@
 	}
 }
 
-
-.col-md-4{
+.first {
 	padding-top: 3em;
 }
 
-.col-sm-6{
-	padding-top: 3em;
-}
-
-
-.col-xs-12{
-	padding-top: 3em;
-}
-
-.last{
+.spacing, .last{
 	padding-bottom: 3em;
-}	
+}
 
 .border{
 	border: solid $brown 2px;
@@ -47,7 +37,6 @@
 	h2{
 		text-transform: uppercase;
 		color: $cream;
-		line-height: 1.3em;
 		text-align: center;
 	}
 }
@@ -73,7 +62,6 @@
 	h2{
 		text-transform: uppercase;
 		color: $cream;
-		line-height: 1.3em;
 		text-align: center;
 	}
 }
@@ -104,7 +92,6 @@
 		padding-top: 1em;
 		text-transform: uppercase;
 		color: $cream;
-		line-height: 1.3em;
 		text-align: center;
 	}
 }
@@ -115,13 +102,8 @@
 		padding-top: 1em;
 		text-transform: uppercase;
 		color: $cream;
-		line-height: 1.3em;
 		text-align: center;
 	}
-}
-
-.story{
-	padding-bottom: 3em;
 }
 
 
@@ -129,9 +111,6 @@
 
 .backgroundBlack{
 	margin-bottom: 7em;
-	h3{
-		padding-top: 2.7em;
-	}
 }
 
 .contactContent{
@@ -193,7 +172,6 @@ form{
 		padding-top: 1em;
 		text-transform: uppercase;
 		color: $cream;
-		line-height: 1.3em;
 		text-align: center;
 	}
 }

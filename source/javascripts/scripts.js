@@ -32,10 +32,30 @@ $(window).load(function(){
 });
 */
 
+/*
+console.log("Test");
+$(window).load(function(){
+	$('.navLink').addClass('current');
+});
+*/
+/*
+
 $('.navLink').each(function() {
-	console.log("Test");
+	console.log("jQuery loading");
 	if ($(this).attr('href')  ==  window.location.pathname) {
-/* 	  $(this).addClass('red'); */
 	  console.log("Whatever");
+	  $(this).addClass('current');
 	}
+});
+*/
+
+
+jQuery(function() {
+  jQuery('.navLinks a').each(function() {
+  	console.log('..'+ window.location.pathname);
+
+    if (jQuery(this).attr('href')  === '..'+  window.location.pathname) {
+      jQuery(this).addClass('current');
+    }
+  });
 });
