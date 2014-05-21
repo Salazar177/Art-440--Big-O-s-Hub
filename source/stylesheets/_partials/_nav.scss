@@ -26,15 +26,16 @@ html{
 		float: right;
 		/* padding-top: 40px; */
 		padding: 0;
-	
+		list-style-type: none;
 		li {
-			display: inline;
+			float: left;
 			padding: 0px 0px 0px 40px;
 			font-family: $cutive;
-			
 			a {
+				display: block;
 				font-size: 1.25em;
 				color: black;
+				padding: 5px 0 0;
 			}
 			
 			a:hover {
