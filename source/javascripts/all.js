@@ -1,3 +1,3 @@
 //= require bootstrap.min
 //= require nav
-//= scripts
+//= require scripts

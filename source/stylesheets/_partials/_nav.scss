@@ -47,6 +47,11 @@ html{
 				color: $red;
 				border-bottom: .1em $red solid;
 			}
+			.current{
+				color: $red;
+				text-decoration: none;
+				border-bottom: .1em $red solid;
+			}
 		}
 	}
 }
@@ -63,8 +68,6 @@ html{
 .hidden{
 	display: none;
 }
-
-
 
 
 .footer{
