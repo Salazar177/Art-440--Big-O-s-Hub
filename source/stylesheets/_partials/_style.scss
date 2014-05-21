@@ -28,10 +28,7 @@
 
 .last{
 	padding-bottom: 3em;
-}
-	
-	
-	
+}	
 
 .border{
 	border: solid $brown 2px;
@@ -42,6 +39,20 @@
 .border:hover{
 	background: $brown;
 }
+
+
+/* ||||||Menu||||||| */
+
+.menuImageText {
+	h2{
+		text-transform: uppercase;
+		color: $cream;
+		line-height: 1.3em;
+		text-align: center;
+	}
+}
+
+
 
 /* ||||||Catering||||||| */
 
@@ -59,7 +70,7 @@
 
 .backgroundImageCatering{
 	margin-bottom: 7em;
-	h5{
+	h2{
 		text-transform: uppercase;
 		color: $cream;
 		line-height: 1.3em;
@@ -89,7 +100,7 @@
 
 .backgroundImageStory{
 	margin-bottom: 3em;
-	h5{
+	h2{
 		padding-top: 1em;
 		text-transform: uppercase;
 		color: $cream;
@@ -100,7 +111,7 @@
 
 .backgroundImageStory2{
 	margin-bottom: 3em;
-	h5{
+	h2{
 		padding-top: 1em;
 		text-transform: uppercase;
 		color: $cream;
