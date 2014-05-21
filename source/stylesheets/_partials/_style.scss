@@ -141,14 +141,42 @@
 }
 
 form{
+	position: relative;
 	ul{
 		text-decoration: none;
+		margin: 0px;
+		padding: 0px;
+		.HLF{
+			margin-bottom: 3em;
+		}
 		li{
 			list-style-type: none;
 		}
+		.buttons{
+			margin-top: 3em;
+		}
+	}
+	input{
+		border: 2px solid $brown;
+		width: 100%;
+		background-color: rgba(255,255,255,0.5);
+		height: 3em;
+		font-family: $cutive;
+		font-size: 1.25em;
+	}
+	textarea{
+		border: 2px solid $brown;
+		width: 100%;
+		background-color: rgba(255,255,255,0.5);
+		font-family: $cutive;
+		font-size: 1.25em;
+		text-align: left;
+	}
+	.submit{
+		background-color: $brown;
+		
 	}
 }
-
 
 /* ||||||Style Guide||||||| */
 
