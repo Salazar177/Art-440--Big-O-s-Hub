@@ -73,6 +73,16 @@ a:hover{
 }
 
 .pageHeader{
-	padding: 3.125em 0 2.5em 0;
+	margin: 3.125em 0 2.5em 0;
 	line-height: 1.75em;
+}
+
+/* MENU */
+.menuSection{
+	margin: 4em 0;
+}
+
+.menuItemHeader{
+	text-align: left;
+	color: $red;
 }
