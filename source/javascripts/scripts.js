@@ -1,4 +1,6 @@
 $(window).load(function(){
+
+	// NAV BUTTON
 	if ($(window).width() <= 767){
 		// do something here
 		$('.navUIButtonContainer').removeClass('hidden');
@@ -16,9 +18,11 @@ $(window).load(function(){
 			$('.navLinks').removeClass('hidden');
 		}
 	});
+	
+	// NAV ACTIVE LINKS
 	$('.navLinks a').each(function() {
 	    if ($(this).attr('href')  === '..'+  window.location.pathname) {
 	      $(this).addClass('current');
 		}
-  });
+	});
 });
