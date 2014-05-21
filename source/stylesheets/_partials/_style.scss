@@ -1,17 +1,5 @@
 /* ||||||Markets||||||| */
 
-.backgroundColorMarkets {
-	background-color: $red;
-	.container {
-		padding-top: 2em;
-		text-align: center;
-		color: $cream;
-		h3{
-			line-height: 1.8em;
-		}
-	}
-}
-
 .first {
 	padding-top: 3em;
 }
@@ -33,7 +21,7 @@
 
 /* ||||||Menu||||||| */
 
-.menuImageText {
+backgroundImageMenu{
 	h2{
 		text-transform: uppercase;
 		color: $cream;
@@ -44,18 +32,6 @@
 
 
 /* ||||||Catering||||||| */
-
-.backgroundColorCatering {
-	background-color: $brown;
-	.container {
-		text-align: center;
-		color: $cream;
-		h3{
-			line-height: 1.8em;
-			padding-top: 1.7em;
-		}
-	}
-}
 
 .backgroundImageCatering{
 	margin-bottom: 7em;
@@ -73,19 +49,6 @@
 }
 
 /* ||||||Story||||||| */
-
-.backgroundColorStory {
-	background-color: $brown;
-	.container {
-		padding-top: 2em;
-		text-align: center;
-		color: $cream;
-		h3{
-			line-height: 1.8em;
-		}
-	}
-}
-
 .backgroundImageStory{
 	margin-bottom: 3em;
 	h2{
@@ -108,10 +71,6 @@
 
 
 /* ||||||Contact||||||| */
-
-.backgroundBlack{
-	margin-bottom: 7em;
-}
 
 .contactContent{
 	h3{
