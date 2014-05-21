@@ -146,11 +146,15 @@ form{
 		text-decoration: none;
 		margin: 0px;
 		padding: 0px;
+
 		.HLF{
 			margin-bottom: 3em;
 		}
 		li{
 			list-style-type: none;
+			p{
+				margin-bottom: -.1em;
+			}
 		}
 		.buttons{
 			margin-top: 3em;
@@ -163,6 +167,7 @@ form{
 		height: 3em;
 		font-family: $cutive;
 		font-size: 1.25em;
+		padding: 5px;
 	}
 	textarea{
 		border: 2px solid $brown;
@@ -171,9 +176,12 @@ form{
 		font-family: $cutive;
 		font-size: 1.25em;
 		text-align: left;
+		padding: 5px;
 	}
 	.submit{
 		background-color: $brown;
+		border: 2px solid $black;
+		
 		
 	}
 }
