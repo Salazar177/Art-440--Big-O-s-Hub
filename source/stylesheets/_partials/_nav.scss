@@ -59,7 +59,14 @@ html{
 
 .logo {
 	width: 81px;
-	height: auto;
+	height: 46.5px;
+	
+	path {
+		fill: black;
+	}
+	.logo svg:hover {
+		fill: $red;
+	}
 }
 
 .navUIButton{
