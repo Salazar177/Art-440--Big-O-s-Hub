@@ -77,6 +77,10 @@ backgroundImageMenu{
 
 /* ||||||Contact||||||| */
 
+.backgroundBlack{
+	margin-bottom: 7em;
+}
+
 .contactContent{
 	h3{
 		text-align: left;
@@ -124,6 +128,7 @@ form{
 	.submit{
 		background-color: $brown;
 		border: 2px solid $black;
+		margin-bottom: 7em;
 		
 		
 	}
