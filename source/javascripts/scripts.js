@@ -26,9 +26,10 @@ $(window).load(function(){
 	
 	// NAV ACTIVE LINKS
 	$('.navLink').each(function() {
-	    if ($(this).attr('href')  === '..'+  window.location.pathname) {
-/* 	      $(this).addClass('current'); */
-	      alert("Whatever bro");
+		console.log(window.location.pathname);
+	    if ($('.menuLink').attr('href')  ===  "/" + window.location.pathname) {
+	      $(this).addClass('current');
+	      console.log("Fuck");
 		}
 	});
 	
