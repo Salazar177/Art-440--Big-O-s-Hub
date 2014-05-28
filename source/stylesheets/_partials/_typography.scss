@@ -12,6 +12,10 @@ body {
 	line-height: 1.4em;
 }
 
+.bar{
+	margin: 2em 0 2em 0;
+}
+
 h1 {
 	font-size: 7em;
 	font-family: $cutive;
@@ -25,8 +29,7 @@ h1 {
 
 .smaller{
 	font-size: 2em;
-	/* text-transform: none; */
-	line-height: normal;
+	line-height: 1.6em;
 	color: $cream;
 	padding: .5em 0 .5em 0;
 	border-bottom: .1em $cream solid;
