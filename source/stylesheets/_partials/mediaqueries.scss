@@ -63,7 +63,7 @@ ul {
 }
 
 
-@media (min-width:768px) and (max-width:991px) {
+@media screen and (min-width:768px) and (max-width:991px) {
 	/* NAV Media */
 	/*
 .navLinks{
@@ -94,7 +94,7 @@ ul {
 	}
 }
 
-@media (min-width:992px) and (max-width:1199px){
+@media screen and (min-width:992px) and (max-width:1199px){
 	
 	.navLinks{
 		ul{
@@ -122,7 +122,7 @@ ul {
 	}
 }
 
-@media (min-width:1200px) {
+@media screen and (min-width:1200px) {
 	/* Typography */
 	h5{
 		font-size: 5em;
