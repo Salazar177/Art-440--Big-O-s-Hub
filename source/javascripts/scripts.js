@@ -7,7 +7,9 @@ $(window).load(function(){
 		$('.navLinks').addClass('hidden');
 	}
 	
-	
+	$('.navUIButton').click(function(){
+		$('.navLinks').removeClass('hidden');
+	});
 	
 	$(window).resize(function(){
 		if ($(window).width() <= 767){	
@@ -23,10 +25,10 @@ $(window).load(function(){
 	});
 	
 	// NAV ACTIVE LINKS
-/* 	console.log("Whatever"); */
 	$('.navLink').each(function() {
 	    if ($(this).attr('href')  === '..'+  window.location.pathname) {
 	      $(this).addClass('current');
 		}
 	});
+	
 });
