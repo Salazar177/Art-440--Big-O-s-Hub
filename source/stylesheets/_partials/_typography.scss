@@ -62,7 +62,14 @@ p {
 	font-family: $cutive;
 	font-size: 1.25em;
 	line-height: 1.8em;
+	a{
+		text-decoration:none;
+		color: $red;
 	}
+	a:hover{
+		text-decoration: underline;
+	}
+}
 
 .center{
 	text-align: center;
@@ -85,8 +92,7 @@ p {
 
 
 /* MARKETS */
-.markets{
-	a{
-		color: black;
-	}
+.farmerMarket{
+	color: black;
+
 }
