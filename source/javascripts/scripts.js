@@ -27,7 +27,8 @@ $(window).load(function(){
 	// NAV ACTIVE LINKS
 	$('.navLink').each(function() {
 	    if ($(this).attr('href')  === '..'+  window.location.pathname) {
-	      $(this).addClass('current');
+/* 	      $(this).addClass('current'); */
+	      alert("Whatever bro");
 		}
 	});
 	
