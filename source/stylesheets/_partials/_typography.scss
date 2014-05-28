@@ -52,10 +52,6 @@ h3 {
 	text-align: center;
 }
 
-a {
-	color: black;
-}
-
 h4 {
 	font-size: 1.25em;
 	font-family: $cutive;
@@ -85,4 +81,12 @@ p {
 .menuItemHeader{
 	text-align: left;
 	color: $red;
+}
+
+
+/* MARKETS */
+.markets{
+	a{
+		color: black;
+	}
 }
