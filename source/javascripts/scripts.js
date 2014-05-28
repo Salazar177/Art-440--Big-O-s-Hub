@@ -6,6 +6,9 @@ $(window).load(function(){
 		$('.navUIButtonContainer').removeClass('hidden');
 		$('.navLinks').addClass('hidden');
 	}
+	
+	
+	
 	$(window).resize(function(){
 		if ($(window).width() <= 767){	
 			// do something here
