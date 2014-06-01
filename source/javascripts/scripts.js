@@ -1,5 +1,9 @@
 $(window).load(function(){
 
+	$('.navUIButton').click(function(){
+		$('.mobileNav').toggleClass('hidden');
+	});
+
 	// NAV BUTTON
 	if ($(window).width() <= 767){
 		// do something here
@@ -8,9 +12,7 @@ $(window).load(function(){
 /* 		$('.navLinks').removeClass('col-xs-offset-2 col-xs-8'); */
 	}
 	
-	$('.navUIButton').click(function(){
-		$('.mobileNav').toggleClass('hidden');
-	});
+	
 	
 	$(window).resize(function(){
 		if ($(window).width() <= 767){	
@@ -22,6 +24,8 @@ $(window).load(function(){
 			// do something here
 			$('.navUIButtonContainer').addClass('hidden');
 			$('.navLinks').removeClass('hidden');
+			$('.mobileNav').addClass('hidden');
+
 		}
 	});
 	
