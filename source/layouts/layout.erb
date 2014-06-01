@@ -29,56 +29,58 @@
     <!-- ADD CONTENT HERE -->
     
     <!-- Grid -->
-    <div class="container navContainer">
-		<div class="row nav">
-			<div class="col-xs-2 navLogo">
-				<a href="index.html">
-					<img src="../images/big-os-logo.svg" alt="Big O Logo" class="logo">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	    <div class="container navContainer">
+			<div class="row nav navbar-header navbar-fixed-top">
+				<div class="col-xs-2 navLogo">
+					<a href="index.html">
+						<img src="../images/big-os-logo.svg" alt="Big O Logo" class="logo">
+							
+							<!--<object type="image/svg+xml" data="../images/big-os-logo.svg" class="logo">
+							</object>-->
+					</a>
+				</div>
+				
+				<div class="navUIButtonContainer col-xs-offset-4 col-xs-6 hidden">
+					<svg class="navUIButton" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						width="44px" height="25px" viewBox="0 0 44 25" enable-background="new 0 0 44 25" xml:space="preserve">
+						<rect x="0" width="44" height="5"/>
+						<rect x="0" y="10" width="44" height="5"/>
+						<rect x="0" y="20" width="44" height="5"/>
+					</svg>
+				</div>
+				
+				<div class="col-xs-offset-2 col-xs-8 navLinks">
+					<ul>
+						<li>
+							<a href="markets.html" class="marketsLink navLink">markets</a>
+						</li>
+						<li>
+							<a href="menu.html" class="menuLink navLink">menu</a>
+						</li>
+						<li>
+							<a href="catering.html" class="cateringLink navLink">catering</a>
+						</li>
+						<li>
+							<a href="story.html" class="storyLink navLink">story</a>
+						</li>
+						<li>
+							<a href="contact.html" class="contactLink navLink">contact</a>
+						</li>
 						
-						<!--<object type="image/svg+xml" data="../images/big-os-logo.svg" class="logo">
-						</object>-->
-				</a>
+					</ul>
+				</div>
+	
+				
 			</div>
-			
-			<div class="navUIButtonContainer col-xs-offset-4 col-xs-6 hidden">
-				<svg class="navUIButton" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-					width="44px" height="25px" viewBox="0 0 44 25" enable-background="new 0 0 44 25" xml:space="preserve">
-					<rect x="0" width="44" height="5"/>
-					<rect x="0" y="10" width="44" height="5"/>
-					<rect x="0" y="20" width="44" height="5"/>
-				</svg>
-			</div>
-			
-			<div class="col-xs-offset-2 col-xs-8 navLinks">
-				<ul>
-					<li>
-						<a href="markets.html" class="marketsLink navLink">markets</a>
-					</li>
-					<li>
-						<a href="menu.html" class="menuLink navLink">menu</a>
-					</li>
-					<li>
-						<a href="catering.html" class="cateringLink navLink">catering</a>
-					</li>
-					<li>
-						<a href="story.html" class="storyLink navLink">story</a>
-					</li>
-					<li>
-						<a href="contact.html" class="contactLink navLink">contact</a>
-					</li>
-					
-				</ul>
-			</div>
-
-			
-		</div>
-	  	
-  	</div>
+		  	
+	  	</div>
+    </nav>
     
     <%= yield %>
     
-      <div class="backgroundImage backgroundImageFooter">
-	      <div class="container">
+	<div class="backgroundImage backgroundImageFooter">
+		<div class="container">
 				<div class="footer">
 					<h4>&copy;Big O's Wood Fired Pizza
 						<br>
@@ -91,9 +93,9 @@
 						<a href="tel:5035475683">503.547.5683</a>
 					</p>
 				</div>
-			</div>
+		</div>
 	  	
-  	</div>
+	</div>
 
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

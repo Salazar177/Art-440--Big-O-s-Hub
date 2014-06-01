@@ -1329,6 +1329,14 @@ hr {
 	left:auto;
 }
 
+.navContainer{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+
+}
+
 .dropup .caret,.navbar-fixed-bottom .dropdown .caret {
 	border-top:0;
 	border-bottom:4px solid;

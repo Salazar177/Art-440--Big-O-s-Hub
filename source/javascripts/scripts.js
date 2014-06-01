@@ -5,10 +5,11 @@ $(window).load(function(){
 		// do something here
 		$('.navUIButtonContainer').removeClass('hidden');
 		$('.navLinks').addClass('hidden');
+/* 		$('.navLinks').removeClass('col-xs-offset-2 col-xs-8'); */
 	}
 	
 	$('.navUIButton').click(function(){
-		$('.navLinks').removeClass('hidden');
+		$('.navLinks').toggleClass('hidden');
 	});
 	
 	$(window).resize(function(){
