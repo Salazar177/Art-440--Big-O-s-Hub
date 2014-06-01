@@ -67,12 +67,21 @@ padding-top: 20px;
 	width: 81px;
 	height: 46.5px;
 	
-	path {
-		fill: black;
-	}
-	.logo svg:hover {
-		fill: $red;
-	}
+	opacity: 1;
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+	
+
+}
+
+.logo:hover{
+	opacity: .5;
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
 }
 
 .navUIButton{
