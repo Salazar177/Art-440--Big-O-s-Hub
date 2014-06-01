@@ -9,7 +9,7 @@ $(window).load(function(){
 	}
 	
 	$('.navUIButton').click(function(){
-		$('.navLinks').toggleClass('hidden');
+		$('.mobileNav').toggleClass('hidden');
 	});
 	
 	$(window).resize(function(){
