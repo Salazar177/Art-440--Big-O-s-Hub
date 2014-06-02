@@ -6,6 +6,10 @@ html{
 	height: 100%;
 }
 
+.navbar{
+	border-bottom: 1px
+}
+
 .navContainer{
 	background-color: $cream;
 }
@@ -90,21 +94,26 @@ padding-top: 20px;
 
 .navUIButton{
 	float: right;
+	height: 40px;
+	cursor: pointer;
 }
+
 
 .hidden{
 	display: none;
 }
 
 .mobileNav{
-	position: absolute;
+	position: fixed;
 	z-index: 50;
 	width: 100%;
 	height: 100%;
 	background-color: rgba(188,146,108,0.9);
+	transition: .5s;
 	color: white;
 	ul{
 		float: none;;
+		margin: 0;
 		li{
 			float: none;
 			padding: 0;
@@ -122,6 +131,15 @@ padding-top: 20px;
 				text-decoration: none;
 				border-bottom: 1px $cream solid;
 			}
+			.current{
+				color: white;
+/* 				opacity: .5; */
+/* 				text-decoration: line-through; */
+				border-bottom: 1px $cream solid;
+			}
+		}
+		.current{
+			background-color: $red;
 		}
 	}
 	
@@ -154,3 +172,89 @@ padding-top: 20px;
 .navFix{
 	margin-top: 86px;
 }
+
+
+
+
+
+
+
+
+
+/* Change this to watch in slo-mo */
+$transition-duration: .5s;
+
+
+$size : 100%;
+$toggled-size : .75;
+
+$bodybg : #449a88;
+$navbg : blue;
+$pagebg : black;
+
+.navicon-button {
+  display: inline-block;
+  position: relative;
+  padding: 2.0625rem 1.5rem;
+  transition: $transition-duration;
+  cursor: pointer;
+  user-select: none;
+  opacity: .8;
+  
+  .navicon:before, .navicon:after {
+    transition: $transition-duration;
+  }
+}
+
+.navicon {
+  position: relative;
+  width: 4em;
+  height: .5rem;
+  background: $pagebg;
+  transition: $transition-duration;
+  border-radius: 2.5rem;
+  
+  &:after, &:before {
+    display: block;
+    content: "";
+    height: .5rem;
+    width: 4rem;
+    background: $pagebg;
+    position: absolute;
+    z-index: -1;
+    transition: $transition-duration ($transition-duration/2);
+    border-radius: 1rem;
+  }
+
+  &:after { top: -1.25rem; }
+  &:before { top: 1.25rem; }
+}
+
+.open:not(.steps) .navicon:before,
+.open:not(.steps) .navicon:after {
+  top: 0 !important;
+}
+
+.open .navicon:before,
+.open .navicon:after {
+  transition: $transition-duration;
+}
+
+/* × and + */
+.open.plus,
+.open.x {
+  .navicon {
+    background: transparent;
+    
+    &:after { transform: rotate(45deg); }  
+    &:before { transform: rotate(-45deg); }  
+  }
+}
+
+.loading .navicon {
+  color: dodgerblue;
+  box-shadow: inset 0 0;
+  transition: $transition-duration, box-shadow 0;
+}
+
+.loading .navicon { transition: 0; }

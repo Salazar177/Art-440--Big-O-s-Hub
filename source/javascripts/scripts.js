@@ -1,7 +1,9 @@
 $(window).load(function(){
 
-	$('.navUIButton').click(function(){
+	$('.navicon-button').click(function(){
 		$('.mobileNav').toggleClass('hidden');
+		$('.navUIButton').toggleClass('close');
+		$(this).toggleClass("open");
 	});
 
 	// NAV BUTTON
