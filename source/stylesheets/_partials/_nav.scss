@@ -1,5 +1,7 @@
 html{
 	background-color: $cream;
+	min-height: 100%;
+	position: relative;
 }
 
 .body{
@@ -104,14 +106,14 @@ padding-top: 20px;
 }
 
 .mobileNav{
-	position: fixed;
-	overflow: auto;
+	position: absolute;
+/* 	overflow: auto; */
 	z-index: 50;
 	width: 100%;
 	height: 100%;
-/* 	top: 0; */
+	padding-top: 86px;
 	left: 0;
-/* 	bottom: 0; */
+	bottom: 0;
 	background-color: rgba(188,146,108,0.9);
 	transition: .5s;
 	color: white;
@@ -127,7 +129,7 @@ padding-top: 20px;
 				text-align: center;
 				padding: 2em 0;
 				color: white;
-				font-size: 2em;
+				font-size: 1.5em;
 				border-bottom: 1px $cream solid;
 			}
 			a:hover {
