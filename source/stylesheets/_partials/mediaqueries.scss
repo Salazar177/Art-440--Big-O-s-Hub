@@ -66,7 +66,15 @@ ul {
 		line-height: 1.1em;
 	}
 	
+	.menuSection {
+	position: relative;
+	width: 80%;
+	margin: auto;
+	}
+	
 }
+
+
 
 
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -91,14 +99,22 @@ ul {
 	
 	h2{
 		font-size: 4em;
-		line-height: 1em;
+		line-height: 1.3em;
 	}
 	
 	h5{
 		font-size: 4em;
 		line-height: 1.2em;
 	}
+	
+	.menuSection {
+	position: relative;
+	width: 100%
+	}
 }
+
+
+
 
 @media screen and (min-width:992px) and (max-width:1199px){
 	
@@ -126,7 +142,14 @@ ul {
 		font-size: 4.8em;
 		line-height: 1.3em;
 	}
+	
+	.menuSection {
+	position: relative;
+	width: 100%
+	}
+
 }
+
 
 @media screen and (min-width:1200px) {
 	/* Typography */
@@ -134,6 +157,12 @@ ul {
 		font-size: 5em;
 		line-height: 1.3em;
 	}
+	
+	.menuSection {
+	position: relative;
+	width: 100%
+	}
+	
 }
 
 

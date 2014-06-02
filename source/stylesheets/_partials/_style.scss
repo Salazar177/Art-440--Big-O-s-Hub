@@ -38,7 +38,12 @@ backgroundImageMenu{
 	}
 }
 
-
+.menuItem {
+	margin-bottom: 3em;
+	p{
+		margin-top: -.5em;
+	}
+}
 
 /* ||||||Catering||||||| */
 
@@ -58,7 +63,7 @@ backgroundImageMenu{
 		text-align: left;
 	}
 	.caterChunk{
-		margin-bottom: 8em;
+		margin-bottom: 6em;
 	}
 }
 
