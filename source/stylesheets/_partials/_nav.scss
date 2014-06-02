@@ -246,8 +246,20 @@ $pagebg : black;
   .navicon {
     background: transparent;
     
-    &:after { transform: rotate(45deg); }  
-    &:before { transform: rotate(-45deg); }  
+    &:after {
+    	-webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);	
+		-o-transform: rotate(45deg);
+    	transform: rotate(45deg);
+    }  
+    &:before {
+    	-webkit-transform: rotate(-45deg);
+		-moz-transform: rotate(-45deg);
+		-ms-transform: rotate(-45deg);	
+		-o-transform: rotate(-45deg);
+    	transform: rotate(-45deg); 
+    }  
   }
 }
 
