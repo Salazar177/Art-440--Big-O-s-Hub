@@ -180,10 +180,10 @@ padding-top: 20px;
 
 
 
+/* MOBILE NAV BUTTON TRANSFORMATION */
 
 /* Change this to watch in slo-mo */
 $transition-duration: .5s;
-
 
 $size : 100%;
 $toggled-size : .75;
@@ -270,3 +270,5 @@ $pagebg : black;
 }
 
 .loading .navicon { transition: 0; }
+
+/* END MOBILE NAV BUTTON TRANSFORMATION */
