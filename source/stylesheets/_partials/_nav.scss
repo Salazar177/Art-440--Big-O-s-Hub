@@ -126,10 +126,12 @@ padding-top: 20px;
 				border-bottom: 1px $cream solid;
 			}
 			a:hover {
-				opacity: .5;
+/* 				opacity: .5; */
 				color: white;
 				text-decoration: none;
 				border-bottom: 1px $cream solid;
+				background-color: $red;
+
 			}
 			.current{
 				color: white;
