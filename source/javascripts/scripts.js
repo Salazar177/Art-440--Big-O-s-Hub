@@ -1,4 +1,4 @@
-$(window).load(function(){
+$(document).ready(function(){
 
 	$('.navicon-button').click(function(){
 		$('.mobileNav').toggleClass('hidden');

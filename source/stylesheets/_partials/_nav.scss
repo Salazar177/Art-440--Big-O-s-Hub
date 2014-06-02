@@ -115,7 +115,7 @@ padding-top: 20px;
 	padding-top: 7em;
 	left: 0;
 	bottom: 0;
-	background-color: rgba(188,146,108,0.9);
+	background-color: rgba(188,146,108,0.95);
 	transition: .5s;
 	color: white;
 	ul{
@@ -183,6 +183,13 @@ padding-top: 20px;
 }
 
 
+.blur{
+	-webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    -o-filter: blur(20px);
+    -ms-filter: blur(20px);
+    filter: blur(20px);
+}
 
 
 
