@@ -4,6 +4,8 @@ $(document).ready(function(){
 		$('.mobileNav').toggleClass('hidden');
 		$('.navUIButton').toggleClass('close');
 		$(this).toggleClass("open");
+/* 		$(window).scrollTo(0, 0); */
+
 	});
 
 	// NAV BUTTON
