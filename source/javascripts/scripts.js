@@ -23,6 +23,8 @@ $(document).ready(function(){
 			// do something here
 			$('.navUIButtonContainer').removeClass('hidden');
 			$('.navLinks').addClass('hidden');
+/* 			$('.container').removeClass('navContainer') */
+
 		}
 		if ($(window).width() >= 767){	
 			// do something here
