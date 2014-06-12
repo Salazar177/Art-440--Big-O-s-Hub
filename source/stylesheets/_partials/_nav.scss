@@ -97,7 +97,7 @@ padding-top: 20px;
 
 .navUIButton{
 	float: right;
-	height: 40px;
+/* 	height: 40px; */
 	cursor: pointer;
 }
 
@@ -213,7 +213,7 @@ $pagebg : black;
 .navicon-button {
   display: inline-block;
   position: relative;
-  padding: 1.25rem 1.5rem;
+  padding: .75rem 1.5rem;
   transition: $transition-duration;
   cursor: pointer;
   user-select: none;
@@ -226,7 +226,7 @@ $pagebg : black;
 
 .navicon {
   position: relative;
-  width: 3em;
+  width: 2.5em;
   height: .35rem;
   background: $pagebg;
   transition: $transition-duration;
@@ -236,7 +236,7 @@ $pagebg : black;
     display: block;
     content: "";
     height: .35rem;
-    width: 3rem;
+    width: 2.5rem;
     background: $pagebg;
     position: absolute;
     z-index: -1;
@@ -244,8 +244,8 @@ $pagebg : black;
     border-radius: 1rem;
   }
 
-  &:after { top: -1rem; }
-  &:before { top: 1rem; }
+  &:after { top: -.7rem; }
+  &:before { top: .7rem; }
 }
 
 .open:not(.steps) .navicon:before,
