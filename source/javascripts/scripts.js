@@ -14,8 +14,7 @@ $(document).ready(function(){
 		$('.navUIButtonContainer').removeClass('hidden');
 		$('.navLinks').addClass('hidden');
 /* 		$('.navLinks').removeClass('col-xs-offset-2 col-xs-8'); */
-	}
-	
+	}	
 	
 	
 	$(window).resize(function(){
@@ -29,6 +28,7 @@ $(document).ready(function(){
 		if ($(window).width() >= 767){	
 			// do something here
 			$('.navUIButtonContainer').addClass('hidden');
+			$('.navicon-button').removeClass('open');
 			$('.navLinks').removeClass('hidden');
 			$('.mobileNav').addClass('hidden');
 
