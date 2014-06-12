@@ -21,9 +21,9 @@ $(document).ready(function(){
 	$(window).resize(function(){
 		if ($(window).width() <= 767){	
 			// do something here
+/* 			$('.container').removeClass('navContainer'); */
 			$('.navUIButtonContainer').removeClass('hidden');
 			$('.navLinks').addClass('hidden');
-/* 			$('.container').removeClass('navContainer') */
 
 		}
 		if ($(window).width() >= 767){	

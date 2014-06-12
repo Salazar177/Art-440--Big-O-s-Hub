@@ -8,13 +8,25 @@ html{
 	height: 100%;
 }
 
+/*
+.navContainer{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+
+}
+*/
+
 .navbar{
 	border-bottom: 1px;
 }
 
 .navContainer{
 	background-color: $cream;
-	border-bottom: 3px #bc926c solid;
+	border-bottom: 3px #E5DFD6 solid;
+
+
 }
 
 .nav {
@@ -108,7 +120,7 @@ padding-top: 20px;
 
 
 .mobileNav{
-	position: absolute;
+/* 	position: absolute; */
 /* 	overflow: auto; */
 	z-index: 50;
 	width: 100%;
@@ -119,6 +131,7 @@ padding-top: 20px;
 	background-color: rgba(188,146,108,0.97);
 	transition: .5s;
 	color: white;
+	border-bottom: 2px white solid;
 	ul{
 		float: none;;
 /* 		position: fixed; */
@@ -226,7 +239,7 @@ $pagebg : black;
 
 .navicon {
   position: relative;
-  width: 2.5em;
+  width: 3em;
   height: .35rem;
   background: $pagebg;
   transition: $transition-duration;
@@ -236,7 +249,7 @@ $pagebg : black;
     display: block;
     content: "";
     height: .35rem;
-    width: 2.5rem;
+    width: 3rem;
     background: $pagebg;
     position: absolute;
     z-index: -1;
@@ -244,8 +257,8 @@ $pagebg : black;
     border-radius: 1rem;
   }
 
-  &:after { top: -.7rem; }
-  &:before { top: .7rem; }
+  &:after { top: -.8rem; }
+  &:before { top: .8rem; }
 }
 
 .open:not(.steps) .navicon:before,
