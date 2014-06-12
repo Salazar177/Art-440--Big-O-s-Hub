@@ -18,6 +18,10 @@ html{
 }
 */
 
+.appear{
+	display: block;
+}
+
 .navbar{
 	border-bottom: 1px;
 }
@@ -122,16 +126,16 @@ padding-top: 20px;
 .mobileNav{
 /* 	position: absolute; */
 /* 	overflow: auto; */
-	z-index: 50;
+/* 	z-index: 50; */
 	width: 100%;
-	height: 100%;
+	position: static;
 /* 	padding-top: 7em; */
 	left: 0;
 /* 	bottom: 0; */
 	background-color: rgba(188,146,108,0.97);
-	transition: .5s;
+/* 	transition: .5s; */
 	color: white;
-	border-bottom: 5px #CCC6BE solid;
+	border-bottom: 3px #CCC6BE solid;
 	ul{
 		float: none;;
 /* 		position: fixed; */
@@ -232,7 +236,7 @@ $pagebg : black;
 .navicon-button {
   display: inline-block;
   position: relative;
-  padding: .75rem 1.5rem;
+  padding: 1.25rem 1rem;
   transition: $transition-duration;
   cursor: pointer;
   user-select: none;

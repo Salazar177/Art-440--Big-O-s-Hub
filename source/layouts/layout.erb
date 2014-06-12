@@ -30,9 +30,11 @@
 	<meta name="msapplication-config" content="/images/icons/browserconfig.xml">
     
     <%= stylesheet_link_tag "normalize", "all", "__bootstrap.min" %>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
+   
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
 
 	<link href='http://fonts.googleapis.com/css?family=Cutive' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Cutive+Mono' rel='stylesheet' type='text/css'>
@@ -55,7 +57,7 @@
 			<div class="row nav navbar-header navbar-fixed-top">
 				<div class="col-xs-2 navLogo">
 					<a href="index.html" class="logoLink">
-						<img src="../images/big-os-logo.svg" alt="Big O Logo" class="logo" onerror="this.src=../images/big-os-logo.png">
+						<img src="../images/big-os-logo.svg" alt="Big O Logo" class="logo" onError="this.src='../images/big-os-logo.png'">
 							
 							<!--<object type="image/svg+xml" data="../images/big-os-logo.svg" class="logo">
 							</object>-->
@@ -136,7 +138,7 @@
 						<br>
 						<br>
 					</h4>
-					<p class="mono cushycms">Owen Morehart
+					<p class="mono cushycms" title="Footer Information">Owen Morehart
 						<br>
 						<a href="mailto:owen.morehart@bigopizza.biz?Subject=Contacting%20Big%20O's%20Pizza" target="_top">owen.morehart@bigopizza.biz</a>
 						<br>

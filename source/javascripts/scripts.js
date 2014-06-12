@@ -4,7 +4,12 @@ $(document).ready(function(){
 		$('.mobileNav').toggleClass('hidden');
 		$('.navUIButton').toggleClass('close');
 		$(this).toggleClass("open");
-/* 		$(window).scrollTo(0, 0); */
+		/*
+if ($('.mobileNav').is(':hidden')){
+			console.log("What?");
+			$('.mobileNav').removeClass('hidden', 1000, 'easeOutBounce');
+		}
+*/
 
 	});
 
