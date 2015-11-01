@@ -2,8 +2,18 @@
 	background-size: cover;
 }
 
+.backgroundImageFullWidth{
+	width: 100%;
+}
+
 .backgroundImageHome{
 	background-image: url('../../images/home-facade-crop-1680.jpg');
+	background-position:center;
+	padding: 10% 0;
+}
+
+.backgroundImageHome2{
+	background-image: url('../../images/home-interior-1680.jpg');
 	background-position:center;
 	padding: 10% 0;
 }

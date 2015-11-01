@@ -3,6 +3,21 @@
 	text-transform: uppercase;
 }
 
+
+/* ||||||Homepage||||||| */
+.homepageTextTransparent {
+	color: rgba(0,0,0,0.0);
+}
+
+.imageBreak{
+	background-color: black;
+	height: 1.25em;
+	p{
+		color: rgba(0,0,0,0.0);
+		margin: 0;
+	}
+}
+
 /* ||||||Markets||||||| */
 
 .cushycms{
@@ -175,6 +190,16 @@ form{
 		
 	}
 }
+
+.footer {
+	h4{
+		margin-bottom: 0;
+	}
+	p{
+		margin-top: .2em;
+	}
+}
+
 
 /* ||||||Style Guide||||||| */
 
