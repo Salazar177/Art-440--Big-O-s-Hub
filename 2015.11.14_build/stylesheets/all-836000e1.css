@@ -1,0 +1,846 @@
+@charset "UTF-8";
+@import url(__bootstrap.min-04ab7413.css);
+/* color */
+/* fonts */
+/* line 1, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_color.scss */
+html, body {
+  background-color: #fdf6eb; }
+
+/* line 5, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_color.scss */
+.red {
+  color: #d61e35; }
+
+/* line 9, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_color.scss */
+.cream {
+  color: #fdf6eb; }
+
+/* line 13, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_color.scss */
+.brown {
+  color: #bc926c; }
+
+/* line 17, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_color.scss */
+.black {
+  color: #221f1f; }
+
+/* line 21, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_color.scss */
+.white {
+  color: white; }
+
+/* line 25, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_color.scss */
+.backgroundRed {
+  background-color: #d61e35; }
+
+/* line 29, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_color.scss */
+.backgroundBlack {
+  background-color: #221f1f; }
+
+/* line 33, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_color.scss */
+.backgroundCream {
+  background-color: #fdf6eb; }
+
+/* line 37, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_color.scss */
+.backgroundBrown {
+  background-color: #bc926c; }
+
+/* line 1, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_images.scss */
+.backgroundImage {
+  background-size: cover; }
+
+/* line 5, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_images.scss */
+.backgroundImageFullWidth {
+  width: 100%; }
+
+/* line 9, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_images.scss */
+.backgroundImageHome {
+  background-image: url("../images/home-facade-crop-1680-d9e75f44.jpg");
+  background-position: center;
+  padding: 10% 0; }
+
+/* line 15, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_images.scss */
+.backgroundImageHome2 {
+  background-image: url("../images/home-interior-1680-44056967.jpg");
+  background-position: center;
+  padding: 10% 0; }
+
+/* line 21, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_images.scss */
+.backgroundImageMarkets {
+  background-image: url("../images/markets-image-9bf66d42.jpg");
+  padding: 17% 0; }
+
+/* line 28, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_images.scss */
+.backgroundImageCatering {
+  background-image: url("../images/catering-image-1680-39aec245.jpg");
+  padding: 1% 0;
+  margin-bottom: 3em;
+  background-position: center; }
+
+/* line 35, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_images.scss */
+.backgroundImageStory {
+  background-image: url("../images/story-image-1-1680-ff5e79bc.jpg");
+  padding: 1% 0;
+  margin-bottom: 3em;
+  background-position: center; }
+
+/* line 43, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_images.scss */
+.backgroundImageStory2 {
+  background-image: url("../images/story-image-2-1680-923efde8.jpg");
+  padding: 1% 0;
+  background-position: center; }
+
+/* line 50, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_images.scss */
+.backgroundImageFooter {
+  background-image: url("../images/bigo_pattern_web-a8794f7a.png");
+  padding: 5% 0; }
+
+/* line 55, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_images.scss */
+.backgroundImageMenu {
+  background-image: url("../images/menu-image-1680-f6b68f5f.jpg");
+  background-position: center;
+  margin-bottom: 3em; }
+
+/* line 62, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_images.scss */
+.backgroundImageStyle {
+  background-image: url("../images/story_image1-f041da52.png"); }
+
+/* line 1, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+html {
+  background-color: #fdf6eb;
+  min-height: 100%;
+  position: relative; }
+
+/* line 7, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+.body {
+  height: 100%; }
+
+/*
+.navContainer{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+
+}
+*/
+/* line 21, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+.appear {
+  display: block; }
+
+/* line 25, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+.navbar {
+  border-bottom: 1px; }
+
+/* line 29, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+.navContainer {
+  background-color: #fdf6eb;
+  border-bottom: 3px #CCC6BE solid; }
+
+/* line 36, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+.nav {
+  	/*
+  padding-top: 20px;
+  	padding-bottom: 20px;
+  	padding-left: 2em;
+  	padding-right: 2em;
+  */
+  padding: 2em 1.5em; }
+
+/* line 46, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+.navLogo {
+  /* background-color: red; */ }
+
+/* line 50, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+.mobileNav, .navLinks {
+  /* background-color: blue; */
+  padding: 0;
+  font-family: "Cutive", Georgia, serif;
+  font-size: 1em;
+  /* NAV LINKS UL */ }
+  /* line 57, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+  .mobileNav ul, .navLinks ul {
+    float: right;
+    /* padding-top: 40px; */
+    padding: 0;
+    list-style-type: none; }
+    /* line 62, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+    .mobileNav ul li, .navLinks ul li {
+      float: left;
+      padding: 0px 0px 0px 40px;
+      font-family: "Cutive", Georgia, serif; }
+      /* line 66, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+      .mobileNav ul li a, .navLinks ul li a {
+        display: block;
+        font-size: 1.25em;
+        color: black;
+        padding: 5px 0 0;
+        text-decoration: none; }
+      /* line 74, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+      .mobileNav ul li a:hover, .navLinks ul li a:hover {
+        color: #d61e35;
+        text-decoration: none;
+        border-bottom: 0.1em #d61e35 solid; }
+      /* line 80, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+      .mobileNav ul li a:active, .navLinks ul li a:active {
+        color: #d61e35;
+        border-bottom: 0.1em #d61e35 solid; }
+      /* line 84, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+      .mobileNav ul li .current, .navLinks ul li .current {
+        color: #d61e35;
+        text-decoration: none;
+        border-bottom: 0.1em #d61e35 solid; }
+
+/* line 93, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+.logo {
+  width: 81px;
+  height: 46.5px;
+  opacity: 1;
+  -webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out; }
+
+/* line 106, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+.logo:hover {
+  opacity: .5;
+  -webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out; }
+
+/* line 114, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+.navUIButton {
+  float: right;
+  /* 	height: 40px; */
+  cursor: pointer; }
+
+/* line 121, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+.hidden {
+  display: none; }
+
+/* line 126, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+.mobileNav {
+  /* 	position: absolute; */
+  /* 	overflow: auto; */
+  /* 	z-index: 50; */
+  width: 100%;
+  position: static;
+  /* 	padding-top: 7em; */
+  left: 0;
+  /* 	bottom: 0; */
+  background-color: rgba(188, 146, 108, 0.97);
+  /* 	transition: .5s; */
+  color: white;
+  border-bottom: 3px #CCC6BE solid; }
+  /* line 139, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+  .mobileNav ul {
+    float: none;
+    /* 		position: fixed; */
+    margin: 0; }
+    /* line 143, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+    .mobileNav ul li {
+      float: none;
+      padding: 0; }
+      /* line 146, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+      .mobileNav ul li a {
+        display: block;
+        text-align: center;
+        padding: 2em 0;
+        color: white;
+        font-size: 1.5em;
+        border-bottom: 1px #fdf6eb solid; }
+      /* line 154, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+      .mobileNav ul li .contactLink {
+        border-bottom: none; }
+      /* line 157, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+      .mobileNav ul li a:hover {
+        /* 				opacity: .5; */
+        color: white;
+        text-decoration: none;
+        border-bottom: 1px #fdf6eb solid;
+        background-color: #d61e35; }
+      /* line 165, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+      .mobileNav ul li .contactLink:hover {
+        border-bottom: none; }
+      /* line 168, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+      .mobileNav ul li .current {
+        color: white;
+        /* 				opacity: .5; */
+        /* 				text-decoration: line-through; */
+        border-bottom: 1px #fdf6eb solid; }
+    /* line 175, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+    .mobileNav ul .current {
+      background-color: #d61e35; }
+
+/* line 184, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+.footer {
+  padding: 5em 0;
+  background-color: black;
+  margin: auto; }
+  /* line 189, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+  .footer h4 {
+    text-align: center;
+    color: white; }
+  /* line 193, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+  .footer p {
+    text-align: center;
+    color: white;
+    font-size: 1.15em; }
+  /* line 198, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+  .footer a {
+    text-decoration: none;
+    color: white; }
+  /* line 202, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+  .footer a:hover {
+    text-decoration: underline; }
+
+/* line 207, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+.navFix {
+  margin-top: 86px; }
+
+/* line 212, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+.blur {
+  -webkit-filter: blur(20px);
+  -moz-filter: blur(20px);
+  -o-filter: blur(20px);
+  -ms-filter: blur(20px);
+  filter: blur(20px); }
+
+/* MOBILE NAV BUTTON TRANSFORMATION */
+/* Change this to watch in slo-mo */
+/* line 237, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+.navicon-button {
+  display: inline-block;
+  position: relative;
+  padding: 1.25rem 1rem;
+  transition: 0.25s;
+  cursor: pointer;
+  user-select: none;
+  opacity: .8; }
+  /* line 246, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+  .navicon-button .navicon:before, .navicon-button .navicon:after {
+    transition: 0.25s; }
+
+/* line 251, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+.navicon {
+  position: relative;
+  width: 3em;
+  height: .35rem;
+  background: black;
+  transition: 0.25s;
+  border-radius: 2.5rem; }
+  /* line 259, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+  .navicon:after, .navicon:before {
+    display: block;
+    content: "";
+    height: .35rem;
+    width: 3rem;
+    background: black;
+    position: absolute;
+    z-index: -1;
+    transition: 0.25s 0.125s;
+    border-radius: 1rem; }
+  /* line 271, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+  .navicon:after {
+    top: -.8rem; }
+  /* line 272, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+  .navicon:before {
+    top: .8rem; }
+
+/* line 276, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+.open:not(.steps) .navicon:before,
+.open:not(.steps) .navicon:after {
+  top: 0 !important; }
+
+/* line 281, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+.open .navicon:before,
+.open .navicon:after {
+  transition: 0.25s; }
+
+/* × and + */
+/* line 288, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+.open.plus .navicon,
+.open.x .navicon {
+  background: transparent; }
+  /* line 291, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+  .open.plus .navicon:after,
+  .open.x .navicon:after {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg); }
+  /* line 298, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+  .open.plus .navicon:before,
+  .open.x .navicon:before {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
+
+/* line 308, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+.loading .navicon {
+  color: dodgerblue;
+  box-shadow: inset 0 0;
+  transition: 0.25s, box-shadow 0; }
+
+/* line 314, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_nav.scss */
+.loading .navicon {
+  transition: 0; }
+
+/* END MOBILE NAV BUTTON TRANSFORMATION */
+/* ||||||General||||||| */
+/* line 3, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+.ALLCAPS {
+  text-transform: uppercase; }
+
+/* ||||||Homepage||||||| */
+/* line 9, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+.homepageTextTransparent {
+  color: rgba(0, 0, 0, 0); }
+
+/* line 13, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+.imageBreak {
+  background-color: black;
+  height: 1.25em; }
+  /* line 16, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+  .imageBreak p {
+    color: rgba(0, 0, 0, 0);
+    margin: 0; }
+
+/* ||||||Markets||||||| */
+/* line 25, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+.cushycms li {
+  list-style-type: none;
+  text-decoration: none; }
+
+/* line 31, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+.first {
+  padding-top: 3em; }
+
+/* line 35, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+.second {
+  padding-top: 3em; }
+
+/* line 39, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+.third {
+  padding-top: 3em;
+  padding-bottom: 3em; }
+
+/* line 44, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+.last {
+  margin-bottom: 4em; }
+
+/* line 48, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+.border {
+  border: solid #bc926c 2px;
+  padding: 1.8em 0 1.8em 0;
+  background: #fdf6eb; }
+
+/* line 54, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+.border:hover {
+  background: #bc926c; }
+
+/* line 58, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+.retail:hover {
+  background: none; }
+
+/* ||||||Menu||||||| */
+/* line 66, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+backgroundImageMenu h2 {
+  text-transform: uppercase;
+  color: #fdf6eb;
+  text-align: center; }
+
+/* line 73, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+.menuItem {
+  margin-bottom: 3em; }
+  /* line 75, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+  .menuItem p {
+    margin-top: -.5em; }
+  /* line 78, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+  .menuItem .menuItemCenter {
+    text-align: center; }
+    /* line 80, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+    .menuItem .menuItemCenter p {
+      margin-top: -.5em; }
+
+/* line 88, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+.menu-padding {
+  padding-bottom: 3em; }
+
+/* ||||||Catering||||||| */
+/* line 94, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+.backgroundImageCatering {
+  margin-bottom: 7em; }
+  /* line 96, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+  .backgroundImageCatering h2 {
+    text-transform: uppercase;
+    color: #fdf6eb;
+    text-align: center; }
+
+/* line 105, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+.caterChunk {
+  margin-bottom: 6em; }
+  /* line 107, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+  .caterChunk h3 {
+    text-align: left; }
+
+/* ||||||Story||||||| */
+/* line 113, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+.backgroundImageStory {
+  margin-bottom: 3em; }
+  /* line 115, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+  .backgroundImageStory h2 {
+    padding-top: 1em;
+    text-transform: uppercase;
+    color: #fdf6eb;
+    text-align: center; }
+
+/* line 123, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+.backgroundImageStory2 {
+  margin-bottom: 3em; }
+  /* line 125, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+  .backgroundImageStory2 h2 {
+    padding-top: 1em;
+    text-transform: uppercase;
+    color: #fdf6eb;
+    text-align: center; }
+
+/* ||||||Contact||||||| */
+/* line 136, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+.backgroundBlack {
+  margin-bottom: 7em; }
+
+/* line 141, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+.leftContent {
+  margin-bottom: 4em; }
+
+/* line 145, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+.H3Left {
+  text-align: left; }
+
+/* line 149, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+form {
+  position: relative; }
+  /* line 151, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+  form ul {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px; }
+    /* line 156, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+    form ul .HLF {
+      margin-bottom: 2em; }
+    /* line 159, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+    form ul li {
+      list-style-type: none; }
+      /* line 161, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+      form ul li label {
+        margin-bottom: -.1em; }
+    /* line 165, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+    form ul .buttons {
+      margin-top: 3em; }
+  /* line 169, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+  form input {
+    border: 2px solid #bc926c;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 3em;
+    font-family: "Cutive Mono", Courier, monospaced;
+    font-size: 1.4em;
+    padding-left: 5px; }
+  /* line 179, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+  form textarea {
+    border: 2px solid #bc926c;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: "Cutive Mono", Courier, monospaced;
+    font-size: 1.4em;
+    line-height: 1.3em;
+    text-align: left;
+    padding: 5px; }
+  /* line 190, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+  form .submit {
+    background-color: #bc926c;
+    border: 2px solid #221f1f;
+    margin-bottom: 7em; }
+
+/* line 200, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+.footer h4 {
+  margin-bottom: 0; }
+/* line 203, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+.footer p {
+  margin-top: .2em; }
+
+/* ||||||Style Guide||||||| */
+/* line 212, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_style.scss */
+.backgroundImageStyle h2 {
+  padding-top: 1em;
+  text-transform: uppercase;
+  color: #fdf6eb;
+  text-align: center; }
+
+/* line 1, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_typography.scss */
+* {
+  font-weight: normal; }
+
+/* line 5, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_typography.scss */
+body {
+  font-size: 100%;
+  /* 16 pixel default */ }
+
+/* line 9, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_typography.scss */
+.mono {
+  font-family: "Cutive Mono", Courier, monospaced;
+  font-size: 1.4em;
+  line-height: 1.4em; }
+
+/* line 15, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_typography.scss */
+.bar {
+  margin: 2em 0 2em 0; }
+
+/* line 19, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_typography.scss */
+h1 {
+  font-size: 7em;
+  font-family: "Cutive", Georgia, serif;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.3em;
+  /* 	letter-spacing: .15em; */
+  /* @include breakpoint */ }
+
+/* line 30, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_typography.scss */
+.smaller {
+  font-size: 2em;
+  line-height: 1.6em;
+  color: #fdf6eb;
+  padding: .5em 0 .5em 0;
+  border-bottom: 0.1em #fdf6eb solid; }
+
+/* line 39, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_typography.scss */
+h2 {
+  font-size: 5em;
+  font-family: "Cutive", Georgia, serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fdf6eb;
+  margin: 3em 0 2.5em 0;
+  line-height: 1.3em;
+  /* letter-spacing: .05em; */ }
+
+/* line 50, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_typography.scss */
+h3 {
+  font-size: 1.5em;
+  font-family: "Cutive", Georgia, serif;
+  text-align: center; }
+
+/* line 56, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_typography.scss */
+h4 {
+  font-size: 1.25em;
+  font-family: "Cutive", Georgia, serif;
+  text-align: center; }
+
+/* line 62, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_typography.scss */
+p {
+  font-family: "Cutive", Georgia, serif;
+  font-size: 1.25em;
+  line-height: 1.8em; }
+  /* line 66, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_typography.scss */
+  p a {
+    text-decoration: none;
+    color: #d61e35; }
+  /* line 70, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_typography.scss */
+  p a:hover {
+    text-decoration: underline; }
+
+/* line 75, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_typography.scss */
+.center {
+  text-align: center; }
+
+/* line 79, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_typography.scss */
+.pageHeader {
+  padding: .5em 0 .5em 0;
+  line-height: 1.75em; }
+
+/* line 84, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_typography.scss */
+.announcement {
+  font-size: 1.5em; }
+
+/* MENU */
+/* line 89, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_typography.scss */
+.menuSection {
+  margin: 4em 0; }
+
+/* line 93, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_typography.scss */
+.menuItemHeader {
+  text-align: left;
+  color: #d61e35; }
+
+/* MARKETS */
+/* line 100, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/_typography.scss */
+.farmerMarket {
+  color: black; }
+
+/* not sure if this goes in this file or not.
+   But it's supposed to change px to ems. */
+@media screen and (max-width: 767px) {
+  /* line 3, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/mediaqueries.scss */
+  .logo {
+    width: 50px;
+    height: auto;
+    padding-bottom: 5px; }
+
+  /* line 8, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/mediaqueries.scss */
+  .logoLink {
+    /* 		height: 20px; */ }
+
+  /* line 11, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/mediaqueries.scss */
+  .navFix {
+    margin-top: 0; }
+
+  /* line 14, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/mediaqueries.scss */
+  .nav {
+    padding-bottom: 1.25em; }
+
+  	/*
+  .navLinks{
+  		background-color: rgba(188,146,108,0.9);
+  	}
+  */
+  /* NAV Media */
+  	/*
+  .navLinks{
+  		display: none;
+  	}
+  */
+  	/*
+  ul {
+  		float: left;
+  		padding-top: 40px;
+  		padding: 0;
+  		list-style-type: none;
+  		width: 100%;
+  		background-color: $black;
+  		li {
+  			float: left;
+  			padding: 0px 0px 0px 40px;
+  			font-family: $cutive;
+  			a {
+  				display: block;
+  				font-size: 1.25em;
+  				color: black;
+  				padding: 5px 0 0;
+  			}
+  			
+  			a:hover {
+  				color: $red;
+  				text-decoration: none;
+  				border-bottom: .1em $red solid;
+  			}
+  			
+  			a:active {
+  				color: $red;
+  				border-bottom: .1em $red solid;
+  			}
+  			.current{
+  				color: $red;
+  				text-decoration: none;
+  				border-bottom: .1em $red solid;
+  			}
+  		}
+  	}
+  */
+  /* Typography */
+  /* line 68, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/mediaqueries.scss */
+  h1 {
+    font-size: 4em;
+    line-height: 1.3em; }
+
+  /* line 73, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/mediaqueries.scss */
+  h2 {
+    font-size: 3em;
+    line-height: 1.3em; }
+
+  /* line 78, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/mediaqueries.scss */
+  h5 {
+    font-size: 3em;
+    line-height: 1.1em; }
+
+  /* line 83, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/mediaqueries.scss */
+  .menuSection {
+    position: relative;
+    /* width: 80%; */
+    margin: auto; } }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* NAV Media */
+  	/*
+  .navLinks{
+  		ul{
+  			li{
+  				padding: 0 .75em;
+  				
+  			}
+  		}
+  	}
+  */
+  /* Typography */
+  /* line 109, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/mediaqueries.scss */
+  h1 {
+    font-size: 4em;
+    line-height: 1.3em; }
+
+  /* line 114, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/mediaqueries.scss */
+  h2 {
+    font-size: 4em;
+    line-height: 1.3em; }
+
+  /* line 119, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/mediaqueries.scss */
+  h5 {
+    font-size: 4em;
+    line-height: 1.2em; }
+
+  /* line 124, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/mediaqueries.scss */
+  .menuSection {
+    position: relative;
+    width: 100%; } }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 137, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/mediaqueries.scss */
+  .navLinks ul li {
+    padding: 0 1em; }
+
+  /* Typography */
+  /* line 145, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/mediaqueries.scss */
+  h1 {
+    font-size: 5em;
+    line-height: 1.3em; }
+
+  /* line 150, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/mediaqueries.scss */
+  h2 {
+    font-size: 4.5em;
+    line-height: 1.3em; }
+
+  /* line 155, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/mediaqueries.scss */
+  .menuH2 {
+    font-size: 4em;
+    line-height: 1.3em; }
+
+  /* line 160, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/mediaqueries.scss */
+  h5 {
+    font-size: 4.8em;
+    line-height: 1.3em; }
+
+  /* line 165, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/mediaqueries.scss */
+  .menuSection {
+    position: relative;
+    width: 100%; } }
+@media screen and (min-width: 1200px) {
+  /* Typography */
+  /* line 175, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/mediaqueries.scss */
+  h5 {
+    font-size: 5em;
+    line-height: 1.3em; }
+
+  /* line 180, /Users/blakecaudle/Documents/BC_GD/Big O's/Working Code/Art-440--Big-O-s-Hub/source/stylesheets/_partials/mediaqueries.scss */
+  .menuSection {
+    position: relative;
+    width: 100%; } }
+/* h5 text over image */
